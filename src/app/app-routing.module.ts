@@ -3,7 +3,7 @@ import {Routes, RouterModule} from '@angular/router';
 import {ForbiddenPageComponent} from './shared/error-page/403/forbidden-page.component';
 import {NotFoundComponent} from './shared/error-page/404/not-found.component';
 import {ServerErrorComponent} from './shared/error-page/500/server-error.component';
-import {LoginComponent} from './login-page/login.component';
+import {LoginComponent} from './login-page/component/login.component';
 
 
 const routes: Routes = [
