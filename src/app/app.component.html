@@ -1,1 +1,9 @@
-<router-outlet></router-outlet>
+<header *ngIf="showBlock">
+<app-header></app-header>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
+<footer *ngIf="showBlock">
+  <app-footer ></app-footer>
+</footer>
